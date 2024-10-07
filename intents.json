@@ -1,0 +1,38 @@
+{"intents":[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+        "responses": ["Hello, how can I help you?"],
+        "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later, thanks for visiting"],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+    },
+    {
+        "tag": "help",
+        "patterns": ["How to use this bot", "How to use this bot?", "What should I do?"],
+        "responses": ["Just type a number and hit enter. I will do my best to answer you!", "I'm here to help you. Just ask me a question."],
+        "context": [""]
+    },
+    {
+        "tag": "default",
+        "patterns": ["*"],
+        "responses": ["Sorry, can't help you with that"],
+        "context": [""]
+    },
+    {
+        "tag":"query",
+        "patterns":["How are you?","How are you doing?"],
+        "responses":["I'm doing well, thank you for asking!"],
+        "context":[""]
+    }
+]}
